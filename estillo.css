@@ -1,8 +1,39 @@
 /:root{
-    --texto-principal:"#ffffff";
-    --cor-secundaria:"#c0c0c0";
-    --Botão-azul:"#ffffff";
-    --cor-de-fundo:"#ffffff";
+    --texto-principal:#ffffff;
+    --cor-secundaria:#c0c0c0;
+    --Botão-azul:#ffffff;
+    --cor-de-fundo:#ffffff;
+    --fonte-prinipal:''
+}
 
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-prinipal);
+    font-size: 16px;
+    font-weight: 400;
 
 }
+
+*{
+
+margin:0;
+padding:0;
+
+}
+
+.principal{
+
+    background-image:url("./img/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.container{
+
+    height: 100vh;
+    display: grid;
+    
+
+}
+
