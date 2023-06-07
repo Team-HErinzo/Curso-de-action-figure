@@ -1,8 +1,8 @@
-/:root{
+:root{
     --texto-principal:#ffffff;
     --cor-secundaria:#c0c0c0;
     --Botão-azul:#ffffff;
-    --cor-de-fundo:#ffffff;
+    --cor-de-fundo:#000000;
     --fonte-prinipal:''
 }
 
@@ -60,3 +60,5 @@ background-color: var(--cor-secundaria);
 border: 2px solid var(--cor-secundaria);
 
 }
+
+
