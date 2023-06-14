@@ -30,19 +30,25 @@ padding:0;
     
 }
 .container{
-
     height: 100vh;
-    display: grid;
+    display:grid ;
     grid-template-columns: 50% 50%;
     
 
 }
 .container--titulo{
-
+    align-items: self-end;
     font-size: 28px;
     font-weight: 300;
 }
 
+.texto1{
+
+
+align-items: center;
+
+
+}
 .container--botão{
 
 background-color: var(--Botão-azul);
@@ -62,3 +68,23 @@ border: 2px solid var(--cor-secundaria);
 }
 
 
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+    
+}
+
+.rodape--lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+
+}
+
+.lista--limk a{
+    text-decoration: none;
+    color: var(--texto-principal);
+    font-size: 14px;
+    margin-left: 1em;
+}
