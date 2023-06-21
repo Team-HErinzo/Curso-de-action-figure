@@ -33,6 +33,7 @@ padding:0;
     height: 100vh;
     display:grid ;
     grid-template-columns: 50% 50%;
+    align-items: center;
     
 
 }
@@ -44,10 +45,13 @@ padding:0;
 
 .texto1{
 
-
+font-size: 40px;
 align-items: center;
+}
 
-
+.texto2
+{
+font-size: 40px;
 }
 .container--botão{
 
@@ -82,9 +86,10 @@ border: 2px solid var(--cor-secundaria);
 
 }
 
-.lista--limk a{
+.lista--link a{
     text-decoration: none;
     color: var(--texto-principal);
-    font-size: 14px;
+    font-size: 30px;
     margin-left: 1em;
 }
+
